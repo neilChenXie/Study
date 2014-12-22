@@ -4,3 +4,7 @@ author: Chen Xie
 Include:
 	Javascript
 	Nodejs
+
+Fault list
+	Nodejs:
+		getMonth() start from 0 and normally need +1
