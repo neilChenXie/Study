@@ -29,4 +29,4 @@ function my_filter(list)
 	return false;
 }
 
-exports.my_filter = file_filter;
+module.exports = file_filter;
