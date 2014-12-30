@@ -1,0 +1,150 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'bytewiser' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose cache add [ 'bytewiser', null ]
+5 verbose cache add name=undefined spec="bytewiser" args=["bytewiser",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'bytewiser',
+6 verbose parsed url   path: 'bytewiser',
+6 verbose parsed url   href: 'bytewiser' }
+7 silly lockFile 98c3c0cc-bytewiser bytewiser
+8 verbose lock bytewiser /home/chen/.npm/98c3c0cc-bytewiser.lock
+9 silly lockFile 98c3c0cc-bytewiser bytewiser
+10 silly lockFile 98c3c0cc-bytewiser bytewiser
+11 verbose addNamed [ 'bytewiser', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 0cf4bbff-bytewiser bytewiser@
+14 verbose lock bytewiser@ /home/chen/.npm/0cf4bbff-bytewiser.lock
+15 silly addNameRange { name: 'bytewiser', range: '*', hasData: false }
+16 verbose request where is /bytewiser
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id 1fe5a3c63755df16
+19 verbose url raw /bytewiser
+20 verbose url resolving [ 'https://registry.npmjs.org/', './bytewiser' ]
+21 verbose url resolved https://registry.npmjs.org/bytewiser
+22 verbose request where is https://registry.npmjs.org/bytewiser
+23 info trying registry request attempt 1 at 16:00:11
+24 http GET https://registry.npmjs.org/bytewiser
+25 http 200 https://registry.npmjs.org/bytewiser
+26 silly registry.get cb [ 200,
+26 silly registry.get   { date: 'Sun, 28 Dec 2014 00:00:11 GMT',
+26 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+26 silly registry.get     etag: '"ADNFFJTLUWH3XIGOXI7H6FRCD"',
+26 silly registry.get     'content-type': 'application/json',
+26 silly registry.get     'cache-control': 'max-age=60',
+26 silly registry.get     'content-length': '9645',
+26 silly registry.get     'accept-ranges': 'bytes',
+26 silly registry.get     via: '1.1 varnish',
+26 silly registry.get     age: '0',
+26 silly registry.get     'x-served-by': 'cache-sjc3126-SJC',
+26 silly registry.get     'x-cache': 'MISS',
+26 silly registry.get     'x-cache-hits': '0',
+26 silly registry.get     'x-timer': 'S1419724811.480906,VS0,VE154',
+26 silly registry.get     vary: 'Accept',
+26 silly registry.get     'keep-alive': 'timeout=10, max=50',
+26 silly registry.get     connection: 'Keep-Alive' } ]
+27 silly addNameRange number 2 { name: 'bytewiser', range: '*', hasData: true }
+28 silly addNameRange versions [ 'bytewiser',
+28 silly addNameRange   [ '0.0.1', '0.0.2', '0.0.3', '0.0.4', '0.0.5', '2.0.0', '2.0.1' ] ]
+29 verbose addNamed [ 'bytewiser', '2.0.1' ]
+30 verbose addNamed [ '2.0.1', '2.0.1' ]
+31 silly lockFile 6f8f3bbc-bytewiser-2-0-1 bytewiser@2.0.1
+32 verbose lock bytewiser@2.0.1 /home/chen/.npm/6f8f3bbc-bytewiser-2-0-1.lock
+33 silly lockFile af5a463b-rg-bytewiser-bytewiser-2-0-1-tgz https://registry.npmjs.org/bytewiser/-/bytewiser-2.0.1.tgz
+34 verbose lock https://registry.npmjs.org/bytewiser/-/bytewiser-2.0.1.tgz /home/chen/.npm/af5a463b-rg-bytewiser-bytewiser-2-0-1-tgz.lock
+35 verbose addRemoteTarball [ 'https://registry.npmjs.org/bytewiser/-/bytewiser-2.0.1.tgz',
+35 verbose addRemoteTarball   'ee3c337cd6af7f69f8c6a3bfaedf855b4dcbf335' ]
+36 info retry fetch attempt 1 at 16:00:11
+37 verbose fetch to= /tmp/npm-4844-gOG-Dfbc/registry.npmjs.org/bytewiser/-/bytewiser-2.0.1.tgz
+38 http GET https://registry.npmjs.org/bytewiser/-/bytewiser-2.0.1.tgz
+39 http 200 https://registry.npmjs.org/bytewiser/-/bytewiser-2.0.1.tgz
+40 silly lockFile af5a463b-rg-bytewiser-bytewiser-2-0-1-tgz https://registry.npmjs.org/bytewiser/-/bytewiser-2.0.1.tgz
+41 silly lockFile af5a463b-rg-bytewiser-bytewiser-2-0-1-tgz https://registry.npmjs.org/bytewiser/-/bytewiser-2.0.1.tgz
+42 silly lockFile 6f8f3bbc-bytewiser-2-0-1 bytewiser@2.0.1
+43 silly lockFile 6f8f3bbc-bytewiser-2-0-1 bytewiser@2.0.1
+44 silly lockFile 0cf4bbff-bytewiser bytewiser@
+45 silly lockFile 0cf4bbff-bytewiser bytewiser@
+46 silly resolved [ { name: 'bytewiser',
+46 silly resolved     version: '2.0.1',
+46 silly resolved     description: 'a nodeschool workshop that teaches you the fundamentals of working with binary data in node.js and HTML5 browsers',
+46 silly resolved     author: { name: 'Max Ogden', url: 'http://github.com/maxogden' },
+46 silly resolved     contributors: [ [Object], [Object] ],
+46 silly resolved     keywords: [ 'nodeschool' ],
+46 silly resolved     repository:
+46 silly resolved      { type: 'git',
+46 silly resolved        url: 'https://github.com/maxogden/bytewiser.git' },
+46 silly resolved     license: 'BSD-2-Clause',
+46 silly resolved     bin: { bytewiser: './bytewiser.js' },
+46 silly resolved     preferGlobal: true,
+46 silly resolved     dependencies:
+46 silly resolved      { workshopper: '^1.0.0-alpha05',
+46 silly resolved        'workshopper-exercise': '^0.2.2',
+46 silly resolved        'workshopper-wrappedexec': '^0.1.1',
+46 silly resolved        'workshopper-boilerplate': '0.0.1',
+46 silly resolved        through: '~2.3.4',
+46 silly resolved        through2: '^0.4.1',
+46 silly resolved        boganipsum: '^0.1.0' },
+46 silly resolved     bugs: { url: 'https://github.com/maxogden/bytewiser/issues' },
+46 silly resolved     directories: { doc: 'docs' },
+46 silly resolved     homepage: 'https://github.com/maxogden/bytewiser',
+46 silly resolved     _id: 'bytewiser@2.0.1',
+46 silly resolved     _shasum: 'ee3c337cd6af7f69f8c6a3bfaedf855b4dcbf335',
+46 silly resolved     _from: 'bytewiser@',
+46 silly resolved     _npmVersion: '1.4.9',
+46 silly resolved     _npmUser: { name: 'maxogden', email: 'max@maxogden.com' },
+46 silly resolved     maintainers: [ [Object] ],
+46 silly resolved     dist:
+46 silly resolved      { shasum: 'ee3c337cd6af7f69f8c6a3bfaedf855b4dcbf335',
+46 silly resolved        tarball: 'http://registry.npmjs.org/bytewiser/-/bytewiser-2.0.1.tgz' },
+46 silly resolved     _resolved: 'https://registry.npmjs.org/bytewiser/-/bytewiser-2.0.1.tgz' } ]
+47 info install bytewiser@2.0.1 into /usr/local/lib
+48 info installOne bytewiser@2.0.1
+49 verbose lib/node_modules/bytewiser unbuild
+50 verbose tar unpack /home/chen/.npm/bytewiser/2.0.1/package.tgz
+51 silly lockFile 22a5641f-local-lib-node-modules-bytewiser tar:///usr/local/lib/node_modules/bytewiser
+52 verbose lock tar:///usr/local/lib/node_modules/bytewiser /home/chen/.npm/22a5641f-local-lib-node-modules-bytewiser.lock
+53 silly lockFile b371bf52--npm-bytewiser-2-0-1-package-tgz tar:///home/chen/.npm/bytewiser/2.0.1/package.tgz
+54 verbose lock tar:///home/chen/.npm/bytewiser/2.0.1/package.tgz /home/chen/.npm/b371bf52--npm-bytewiser-2-0-1-package-tgz.lock
+55 silly gunzTarPerm modes [ '775', '664' ]
+56 error Error: EACCES, mkdir '/usr/local/lib/node_modules/bytewiser'
+56 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/bytewiser']
+56 error   errno: 3,
+56 error   code: 'EACCES',
+56 error   path: '/usr/local/lib/node_modules/bytewiser',
+56 error   fstream_type: 'Directory',
+56 error   fstream_path: '/usr/local/lib/node_modules/bytewiser',
+56 error   fstream_class: 'DirWriter',
+56 error   fstream_stack:
+56 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+56 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+56 error      'Object.oncomplete (fs.js:107:15)' ] }
+57 error Please try running this command again as root/Administrator.
+58 error System Linux 3.13.0-43-generic
+59 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install" "-g" "bytewiser"
+60 error cwd /home/chen/Dropbox/Study/Nodejs/lesson2
+61 error node -v v0.10.33
+62 error npm -v 1.4.28
+63 error path /usr/local/lib/node_modules/bytewiser
+64 error fstream_path /usr/local/lib/node_modules/bytewiser
+65 error fstream_type Directory
+66 error fstream_class DirWriter
+67 error code EACCES
+68 error errno 3
+69 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/bytewiser'
+70 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+70 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+70 error fstream_stack Object.oncomplete (fs.js:107:15)
+71 verbose exit [ 3, true ]
