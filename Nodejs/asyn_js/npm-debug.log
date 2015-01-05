@@ -1,0 +1,160 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'q',
+1 verbose cli   '--save' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose cache add [ 'q', null ]
+5 verbose cache add name=undefined spec="q" args=["q",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'q',
+6 verbose parsed url   path: 'q',
+6 verbose parsed url   href: 'q' }
+7 silly lockFile 22ea1c64-q q
+8 verbose lock q /home/chen/.npm/22ea1c64-q.lock
+9 silly lockFile 22ea1c64-q q
+10 silly lockFile 22ea1c64-q q
+11 verbose addNamed [ 'q', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile f83edb5d-q q@
+14 verbose lock q@ /home/chen/.npm/f83edb5d-q.lock
+15 silly addNameRange { name: 'q', range: '*', hasData: false }
+16 verbose request where is /q
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id fa0ed1095b1c2b1f
+19 verbose url raw /q
+20 verbose url resolving [ 'https://registry.npmjs.org/', './q' ]
+21 verbose url resolved https://registry.npmjs.org/q
+22 verbose request where is https://registry.npmjs.org/q
+23 info trying registry request attempt 1 at 12:03:07
+24 verbose etag "EUNMZFYLC1C2MHCBTWWQM4PL5"
+25 http GET https://registry.npmjs.org/q
+26 http 304 https://registry.npmjs.org/q
+27 silly registry.get cb [ 304,
+27 silly registry.get   { date: 'Thu, 01 Jan 2015 20:03:08 GMT',
+27 silly registry.get     server: 'Apache',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     'last-modified': 'Thu, 01 Jan 2015 20:03:08 GMT',
+27 silly registry.get     'cache-control': 'max-age=60',
+27 silly registry.get     etag: '"EUNMZFYLC1C2MHCBTWWQM4PL5"',
+27 silly registry.get     age: '32',
+27 silly registry.get     'x-served-by': 'cache-sjc3124-SJC',
+27 silly registry.get     'x-cache': 'HIT',
+27 silly registry.get     'x-cache-hits': '1',
+27 silly registry.get     'x-timer': 'S1420142588.183910,VS0,VE0',
+27 silly registry.get     vary: 'Accept',
+27 silly registry.get     'content-length': '0',
+27 silly registry.get     'keep-alive': 'timeout=10, max=50',
+27 silly registry.get     connection: 'Keep-Alive' } ]
+28 verbose etag https://registry.npmjs.org/q from cache
+29 silly addNameRange number 2 { name: 'q', range: '*', hasData: true }
+30 silly addNameRange versions [ 'q',
+30 silly addNameRange   [ '0.0.0',
+30 silly addNameRange     '0.0.1',
+30 silly addNameRange     '0.0.2',
+30 silly addNameRange     '0.0.3',
+30 silly addNameRange     '0.1.0',
+30 silly addNameRange     '0.1.1',
+30 silly addNameRange     '0.1.2',
+30 silly addNameRange     '0.1.3',
+30 silly addNameRange     '0.1.4',
+30 silly addNameRange     '0.1.5',
+30 silly addNameRange     '0.1.6',
+30 silly addNameRange     '0.1.7',
+30 silly addNameRange     '0.1.8',
+30 silly addNameRange     '0.1.9',
+30 silly addNameRange     '0.2.0-rc1',
+30 silly addNameRange     '0.2.0',
+30 silly addNameRange     '0.2.1',
+30 silly addNameRange     '0.2.2',
+30 silly addNameRange     '0.2.3',
+30 silly addNameRange     '0.2.4',
+30 silly addNameRange     '0.2.5',
+30 silly addNameRange     '0.2.6',
+30 silly addNameRange     '0.2.7',
+30 silly addNameRange     '0.2.8',
+30 silly addNameRange     '0.2.9',
+30 silly addNameRange     '0.3.0',
+30 silly addNameRange     '0.2.10',
+30 silly addNameRange     '0.4.0',
+30 silly addNameRange     '0.4.1',
+30 silly addNameRange     '0.4.2',
+30 silly addNameRange     '0.4.4',
+30 silly addNameRange     '0.5.0',
+30 silly addNameRange     '0.5.1',
+30 silly addNameRange     '0.5.2',
+30 silly addNameRange     '0.5.3',
+30 silly addNameRange     '0.6.0',
+30 silly addNameRange     '0.7.0',
+30 silly addNameRange     '0.7.1',
+30 silly addNameRange     '0.7.2',
+30 silly addNameRange     '0.8.0',
+30 silly addNameRange     '0.8.1',
+30 silly addNameRange     '0.8.2',
+30 silly addNameRange     '0.8.3',
+30 silly addNameRange     '0.8.4',
+30 silly addNameRange     '0.8.5',
+30 silly addNameRange     '0.8.6',
+30 silly addNameRange     '0.8.7',
+30 silly addNameRange     '0.8.8',
+30 silly addNameRange     '0.8.9',
+30 silly addNameRange     '0.8.10',
+30 silly addNameRange     '0.8.11',
+30 silly addNameRange     '0.8.12',
+30 silly addNameRange     '0.9.0',
+30 silly addNameRange     '0.9.1',
+30 silly addNameRange     '0.9.2',
+30 silly addNameRange     '0.9.3',
+30 silly addNameRange     '0.9.4',
+30 silly addNameRange     '0.9.5',
+30 silly addNameRange     '0.9.6',
+30 silly addNameRange     '0.9.7',
+30 silly addNameRange     '1.0.0',
+30 silly addNameRange     '1.0.1',
+30 silly addNameRange     '2.0.0',
+30 silly addNameRange     '2.0.1',
+30 silly addNameRange     '2.0.2',
+30 silly addNameRange     '1.1.0',
+30 silly addNameRange     '1.1.1',
+30 silly addNameRange     '1.1.2' ] ]
+31 verbose addNamed [ 'q', '1.1.2' ]
+32 verbose addNamed [ '1.1.2', '1.1.2' ]
+33 silly lockFile e953b1ec-q-1-1-2 q@1.1.2
+34 verbose lock q@1.1.2 /home/chen/.npm/e953b1ec-q-1-1-2.lock
+35 silly lockFile cf0717ec-registry-npmjs-org-q-q-1-1-2-tgz https://registry.npmjs.org/q/-/q-1.1.2.tgz
+36 verbose lock https://registry.npmjs.org/q/-/q-1.1.2.tgz /home/chen/.npm/cf0717ec-registry-npmjs-org-q-q-1-1-2-tgz.lock
+37 verbose addRemoteTarball [ 'https://registry.npmjs.org/q/-/q-1.1.2.tgz',
+37 verbose addRemoteTarball   '6357e291206701d99f197ab84e57e8ad196f2a89' ]
+38 info retry fetch attempt 1 at 12:03:08
+39 verbose fetch to= /tmp/npm-14616-p4fysCDO/registry.npmjs.org/q/-/q-1.1.2.tgz
+40 http GET https://registry.npmjs.org/q/-/q-1.1.2.tgz
+41 http 200 https://registry.npmjs.org/q/-/q-1.1.2.tgz
+42 silly lockFile cf0717ec-registry-npmjs-org-q-q-1-1-2-tgz https://registry.npmjs.org/q/-/q-1.1.2.tgz
+43 silly lockFile cf0717ec-registry-npmjs-org-q-q-1-1-2-tgz https://registry.npmjs.org/q/-/q-1.1.2.tgz
+44 silly lockFile e953b1ec-q-1-1-2 q@1.1.2
+45 silly lockFile e953b1ec-q-1-1-2 q@1.1.2
+46 silly lockFile f83edb5d-q q@
+47 silly lockFile f83edb5d-q q@
+48 error Error: EACCES, mkdir '/home/chen/.npm/q/1.1.2'
+48 error  { [Error: EACCES, mkdir '/home/chen/.npm/q/1.1.2'] errno: 3, code: 'EACCES', path: '/home/chen/.npm/q/1.1.2' }
+49 error Please try running this command again as root/Administrator.
+50 error System Linux 3.13.0-43-generic
+51 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install" "q" "--save"
+52 error cwd /home/chen/Dropbox/Study/Nodejs/asyn_js
+53 error node -v v0.10.33
+54 error npm -v 1.4.28
+55 error path /home/chen/.npm/q/1.1.2
+56 error code EACCES
+57 error errno 3
+58 error stack Error: EACCES, mkdir '/home/chen/.npm/q/1.1.2'
+59 verbose exit [ 3, true ]
