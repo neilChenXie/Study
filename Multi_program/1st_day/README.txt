@@ -1,0 +1,2 @@
+pthread_create
+memory separation
