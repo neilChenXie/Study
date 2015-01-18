@@ -5,6 +5,14 @@ Include:
 	Javascript
 	Nodejs
 		stream exercise
+	Data structure
+		Queue
+		Hash
+		Priority queue
+		BTree
+	Multithread
+		pthread_create
+		OpenMP
 
 Fault list
 	Nodejs:
