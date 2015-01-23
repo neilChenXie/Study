@@ -1,0 +1,2 @@
+Q1/Q3:
+	how about words? (use unordered map in STL)

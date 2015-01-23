@@ -13,6 +13,8 @@ Include:
 	Multithread
 		pthread_create
 		OpenMP
+	Graph:
+		G_represent: link_list class
 
 Fault list
 	Nodejs:
